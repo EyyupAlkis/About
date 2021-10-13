@@ -3,17 +3,17 @@
 # Site wide configuration
 ####################################
 #
-title: simonknott.de
-email: info@simonknott.de
+title: Eyyüp Alkış
+email: alkis.eyyup@gmail.com
 description: Simon's Blog & Portfolio
 url: https://simonknott.de
 logo: /img/logo.svg
-lang: de
+lang: en
 keywords: ["Programming", "Software Developing", "Java", "JavaScript", "OrbiTeam", "React", "React Native", "Typescript", "Docker", "Student"]
 social:
-  name: Simon Knott
+  name: Eyyüp Alkış
   links:
-    - http://github.com/skn0tt
+    - http://github.com/EyyupAlkis
 exclude: [vendor, LICENSE.txt, package-lock.json, README.md, Gemfile, Gemfile.lock, build, node_modules, draw, katex.js, Makefile, dsgvo]
 collections:
   slides:
@@ -62,7 +62,7 @@ mermaid:
   src: 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/7.0.0/mermaid.min.js'
 
 algolia:
-  application_id: T3ZVTXKDMW
+  application_id: SL5XJB46I6
   index_name: prod_site
 
 graphviz:
@@ -75,12 +75,12 @@ graphviz:
 ####################################
 #
 owner:
-  name: Simon Knott
+  name: Eyyüp Alkış
   avatar: profile.jpg
-  job: "Developer Tooling Engineer"
-  email: info@simonknott.de
+  job: "Mobile Developer - Android Native & Flutter"
+  email: alkis.eyyup@gmail.com
   disqus-shortname: simonknott
-  twitter: skn0tt
+  twitter: rathi246
   facebook: #username
   google:
     plus: #username
@@ -89,10 +89,10 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: skn0tt
+  github: EyyupAlkis
   # gitlab: skn0tt
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  # linkedin: simon-knott
+  linkedin: alkiseyyup
   skype: #username
   xing: #username
   instagram: #username

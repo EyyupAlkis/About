@@ -1,8 +1,8 @@
 {
-  "version": 2,
+  "version": 3,
   "build": {
-    "env": {
-      "ALGOLIA_API_KEY": "@simonknott-de-algolia-api-key"
+    "ENV": {
+      "ALGOLIA_API_KEY": "cf75ddde62108f775205623be6921464"
     }
   },
   "routes": [
@@ -13,35 +13,19 @@
     { "src": "/favicon.ico", "headers": { "cache-control": "max-age=604800" } },
     {
       "src": "/twitter",
-      "dest": "https://www.twitter.com/skn0tt"
+      "dest": "https://www.twitter.com/rathi246"
     },
     {
       "src": "/github",
-      "dest": "https://github.com/skn0tt"
-    },
-    {
-      "src": "/gitlab",
-      "dest": "https://gitlab.com/skn0tt"
+      "dest": "https://github.com/EyyupAlkis"
     },
     {
       "src": "/gh",
-      "dest": "https://github.com/skn0tt"
+      "dest": "https://github.com/EyyupAlkis"
     },
     {
       "src": "/linkedin",
-      "dest": "https://www.linkedin.com/in/simon-knott/"
-    },
-    {
-      "src": "/ente",
-      "dest": "https://ente.app"
-    },
-    {
-      "src": "/vinyl",
-      "dest": "https://www.discogs.com/de/user/skn0tt/collection"
-    },
-    {
-      "src": "/discogs",
-      "dest": "https://www.discogs.com/de/user/skn0tt/collection"
+      "dest": "https://www.linkedin.com/in/AlkisEyyup/"
     }
   ]
 }
