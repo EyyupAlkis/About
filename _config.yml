@@ -1,0 +1,120 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: simonknott.de
+email: info@simonknott.de
+description: Simon's Blog & Portfolio
+url: https://simonknott.de
+logo: /img/logo.svg
+lang: de
+keywords: ["Programming", "Software Developing", "Java", "JavaScript", "OrbiTeam", "React", "React Native", "Typescript", "Docker", "Student"]
+social:
+  name: Simon Knott
+  links:
+    - http://github.com/skn0tt
+exclude: [vendor, LICENSE.txt, package-lock.json, README.md, Gemfile, Gemfile.lock, build, node_modules, draw, katex.js, Makefile, dsgvo]
+collections:
+  slides:
+    output: true
+    permalink: /:collection/:name
+defaults:
+  - scope:
+      path: ""
+      type: slides
+    values:
+      sitemap: false
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      comments: true
+      disqus: false
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Europe/Paris
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:title.html
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  math_engine: mathjax
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+  input: GFM
+
+sass:
+  style: compressed
+
+katex:
+  path_to_js: katex.js
+
+mermaid:
+  src: 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/7.0.0/mermaid.min.js'
+
+algolia:
+  application_id: T3ZVTXKDMW
+  index_name: prod_site
+
+graphviz:
+  options: "-Tsvg"
+  command: "dot"
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Simon Knott
+  avatar: profile.jpg
+  job: "Developer Tooling Engineer"
+  email: info@simonknott.de
+  disqus-shortname: simonknott
+  twitter: skn0tt
+  facebook: #username
+  google:
+    plus: #username
+    # analytics: UA-102336808-1
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: skn0tt
+  # gitlab: skn0tt
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  # linkedin: simon-knott
+  skype: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #fourtyTwoDE
+  weibo: #username
+  flickr: #username
+  500px: #username
+  codepen: #username
+  telegram: #username
+  mixcloud: #username
+  upwork: #"~01ee92412f0d81f80b"
+  # discogs: 'skn0tt'
+
+## Reveal config
+reveal:
+  slide_separator: "<!--slide-->"
+  vertical_separator: "<!--vert-->"
+  notes_separator: "<!--notes-->"

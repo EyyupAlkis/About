@@ -1,0 +1,76 @@
+---
+layout: default
+---
+<div class="post-container">
+  <div itemscope itemtype="http://schema.org/Blog">
+  {% for post in site.posts limit:6 %}
+  <section class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="post-header">
+      <p class="post-meta">
+        <span class="post-date">
+          <time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">
+            {{ post.date | date: "%-d %b %Y" }}
+          </time>
+        </span>
+        {% if post.categories.size > 0 %}
+        •
+        {% for cat in post.categories %}
+          <a class="post-cat" href="/categories/#{{ cat }}">{{ cat }}</a>
+          {% unless forloop.last %}
+          <span>/</span>
+          {% endunless %}
+        {% endfor %}
+        {% endif %}
+      </p>
+      <meta itemprop="headline" content="{{ post.title }}" />
+      <h1 class="post-title">
+        <a href="{{ post.url }}" class="post-title" title="{{ post.title }}" itemprop="url"><span itemprop="name">{{ post.title }}</span></a>
+        {% if post.link %}
+        <a class="post-title-link" href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-external-link"></i></a>
+        {% endif %}
+      </h1>
+
+      {% if post.author %}
+        {% assign author = site.data.authors[post.author] %}
+      {% else %}
+        {% assign author = site.owner %}
+      {% endif %}
+      <meta itemprop="author" content="{{ author.name }}" />
+      <meta itemprop="publisher" content="{{ site.owner.name }}" />
+    </div>
+
+    {% if post.excerpt %}
+    <div class="post-description" itemprop="description">
+      <p>
+        {{ post.excerpt }}
+      </p>
+    </div>
+    {% endif %}
+
+    <a itemprop="mainEntityOfPage" href="{{ post.url }}">Read more...</a>
+
+    <!-- Post Image -->
+    {% if post.image.feature %}
+    <div class="post-image-feature">
+      <img src=
+      {% if post.image.feature contains 'http' %}
+      "{{ post.image.feature }}"
+      {% else %}
+      "/img/{{ post.image.feature }}"
+      {% endif %}
+      alt="{{ post.title }} feature image"
+      title="{{ post.title }}">
+      {% if post.image.credit %}
+      <span class="image-credit">Photo Credit: <a href="{{ post.image.creditlink }}">{{ post.image.credit }}</a></span>
+      {% endif %}
+      <meta itemprop="image" content="{{ post.image.feature }}" />
+    </div><!-- /.image-wrap -->
+    {% else %}
+    <meta itemprop="image" content="/img/logo.svg" />
+    {% endif %}
+  </section>
+  {% endfor %}
+  </div>
+  
+  <a class="btn" style="width:100%; margin: 0 auto; text-align: center;" href= "/timeline">See all Posts</a>
+</div>

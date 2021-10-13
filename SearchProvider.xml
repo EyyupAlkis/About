@@ -1,0 +1,9 @@
+---
+---
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>{{ site.title | escape }}</ShortName>
+  <Description>{{ site.description | escape }}</Description>
+  <Url type="text/html" method="get" template="{{ site.url }}/search.html?query={searchTerms}"/>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image height="32" width="32" type="image/x-icon">{{ site.url }}/favicon.ico</Image>
+</OpenSearchDescription>

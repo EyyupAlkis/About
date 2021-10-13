@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "build": "yum install graphviz && bundle exec jekyll algolia && bundle exec jekyll build"
+  }
+}

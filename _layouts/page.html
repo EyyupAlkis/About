@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="post-container">
+  <div id="page">
+    {% if page.showTitle!=false %}
+    <div class="page-header">
+      <h2>{{ page.title }}</h2>
+    </div>
+    {% endif %}
+
+    <article class="page-content">
+      {{ content }}
+    </article>
+
+
+  </div><!-- end page content -->
+</article>
+
+
+{% if site.owner.disqus-shortname and page.disqus == true %}
+  {% include disqus.html %}
+{% endif %}
+
+{% if page.comments == true %}
+  {% include commentbox.html %}
+{% endif %}
+

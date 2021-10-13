@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "build": {
+    "env": {
+      "ALGOLIA_API_KEY": "@simonknott-de-algolia-api-key"
+    }
+  },
+  "routes": [
+    { "src": "/css/.*", "headers": { "cache-control": "max-age=604800" } },
+    { "src": "/fonts/.*", "headers": { "cache-control": "max-age=604800" } },
+    { "src": "/img/.*", "headers": { "cache-control": "max-age=604800" } },
+    { "src": "/favicon.png", "headers": { "cache-control": "max-age=604800" } },
+    { "src": "/favicon.ico", "headers": { "cache-control": "max-age=604800" } },
+    {
+      "src": "/twitter",
+      "dest": "https://www.twitter.com/skn0tt"
+    },
+    {
+      "src": "/github",
+      "dest": "https://github.com/skn0tt"
+    },
+    {
+      "src": "/gitlab",
+      "dest": "https://gitlab.com/skn0tt"
+    },
+    {
+      "src": "/gh",
+      "dest": "https://github.com/skn0tt"
+    },
+    {
+      "src": "/linkedin",
+      "dest": "https://www.linkedin.com/in/simon-knott/"
+    },
+    {
+      "src": "/ente",
+      "dest": "https://ente.app"
+    },
+    {
+      "src": "/vinyl",
+      "dest": "https://www.discogs.com/de/user/skn0tt/collection"
+    },
+    {
+      "src": "/discogs",
+      "dest": "https://www.discogs.com/de/user/skn0tt/collection"
+    }
+  ]
+}

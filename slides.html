@@ -1,0 +1,36 @@
+---
+layout: page
+title: Slides
+sitemap: false
+permalink: /slides/
+---
+
+{% assign slides = site.slides | sort: 'date' | reverse %}
+
+<div class="archive">
+  <div class="timeline" id="timeline">
+    {% for slide in slides %}
+    {% unless slide.next %}
+    <div class="archive-title">
+      <h4 class="archive-year">{{ slide.date | date: '%Y' }}</h4>
+    </div>
+
+    <ul>
+    {% else %}
+      {% capture year %}{{ slide.date | date: '%Y' }}{% endcapture %}
+      {% capture nyear %}{{ slide.next.date | date: '%Y' }}{% endcapture %}
+    {% if year != nyear %}
+    </ul>
+    <div class="archive-title">
+      <h4 class="archive-year">{{ slide.date | date: '%Y' }}</h4>
+    </div>
+    <ul>
+    {% endif %}
+    {% endunless %}
+    <li>
+      <div style="width:100px;float:left;">{{ slide.date | date: "%b %-d" }}</div> <a class="tag-item-title" href="{{ slide.url }}.html">{{ slide.title }}</a>
+    </li>
+    {% endfor %}
+    </ul>
+  </div>
+</div>

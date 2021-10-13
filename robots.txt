@@ -1,0 +1,4 @@
+Sitemap: https://simonknott.de/sitemap.xml
+
+User-Agent: *
+Disallow: /slides/

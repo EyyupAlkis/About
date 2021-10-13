@@ -1,0 +1,78 @@
+---
+layout: default
+title: Search
+search: true
+permalink: /search/
+---
+
+<div class="search">
+  <div class="post-container">
+    <div id="searchbox"></div>
+    <div id="hits"></div>
+  </div>
+  
+</div>
+
+<script>
+  const search = instantsearch({
+    appId: 'T3ZVTXKDMW',
+    apiKey: '1d652483e1a1746ef42f3729af8633cf',
+    indexName: 'prod_site',
+    routing: true
+  });
+
+  search.addWidget(
+    instantsearch.widgets.searchBox({
+      container: '#searchbox',
+      poweredBy: true,
+      placeholder: "Search..."
+    })
+  );
+
+  search.addWidget(
+    instantsearch.widgets.infiniteHits({
+      container: '#hits',
+      cssClasses: {
+        showmore: "btn-show-more"
+      },
+      templates: {
+        empty: `<p class="noresults">No results were found.</p>`,
+        item(o) {
+          if (o.sitemap === false) { return null; }
+
+          const { title, content } = o._highlightResult;
+          return `
+          <div class="post">
+            <div class="post-header">
+              <p class="post-meta">
+                <span class="post-date">
+                  <time datetime="${o.date}">
+                    ${new Date(o.date * 1000).toLocaleDateString("en")}
+                  </time>
+                  •
+                  ${o.categories.map(cat => `
+                    <a class="post-cat" href="/categories/#${cat}">
+                      ${cat}
+                    </a>
+                  `).join(" / ")}
+                </span>
+                <h1 class="post-title">
+                  <a href="${o.url}" class="post-title" title="${o.title}">
+                    <span>${o.title}</span>
+                  </a>
+                </h1>
+              </p>
+            </div>
+
+            <div class="post-description">
+              <p>${content.value}</p>
+            </div>
+          </div>
+          `
+        },
+      }
+    })
+  );
+
+  search.start();
+</script>
