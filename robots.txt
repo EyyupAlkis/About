@@ -1,4 +1,4 @@
-Sitemap: https://simonknott.de/sitemap.xml
+Sitemap: https://eyyupalkis.github.io/About/sitemap.xml
 
 User-Agent: *
 Disallow: /slides/

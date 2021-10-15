@@ -18,7 +18,7 @@ exclude: [vendor, LICENSE.txt, package-lock.json, README.md, Gemfile, Gemfile.lo
 collections:
   slides:
     output: true
-    permalink: /:collection/:name
+    permalink: /About/:collection/:name
 defaults:
   - scope:
       path: "/About/"
