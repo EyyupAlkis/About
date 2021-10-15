@@ -7,7 +7,7 @@ title: Eyyüp Alkış
 email: alkis.eyyup@gmail.com
 description: Simon's Blog & Portfolio
 url: https://eyyupalkis.github.io/About
-logo: /img/logo.svg
+logo: /About/img/logo.svg
 lang: en
 keywords: ["Programming", "Software Developing", "Java", "JavaScript", "OrbiTeam", "React", "React Native", "Typescript", "Docker", "Student"]
 social:
@@ -21,12 +21,12 @@ collections:
     permalink: /:collection/:name
 defaults:
   - scope:
-      path: ""
+      path: "/About/"
       type: slides
     values:
       sitemap: false
   - scope:
-      path: ""
+      path: "/About/"
       type: "posts"
     values:
       layout: post
@@ -41,7 +41,7 @@ timezone:          Europe/Paris
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
-permalink:         /articles/:title.html
+permalink:         /About/articles/:title.html
 
 kramdown:
   auto_ids: true
