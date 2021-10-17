@@ -6,7 +6,7 @@
 title: Eyyüp Alkış
 email: alkis.eyyup@gmail.com
 description: Simon's Blog & Portfolio
-url: https://eyyupalkis.github.io/About
+url: https://simonknott.de
 logo: /img/logo.svg
 lang: en
 keywords: ["Programming", "Software Developing", "Java", "JavaScript", "OrbiTeam", "React", "React Native", "Typescript", "Docker", "Student"]
@@ -79,7 +79,7 @@ owner:
   avatar: profile.jpg
   job: "Mobile Developer - Android Native & Flutter"
   email: alkis.eyyup@gmail.com
-  #disqus-shortname: simonknott
+  disqus-shortname: simonknott
   twitter: rathi246
   facebook: #username
   google:
