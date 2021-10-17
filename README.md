@@ -1,5 +1,5 @@
-# simonknott.de
-This is the repo of my little blog/portfolio [simonknott.de](https://simonknott.de).
+# eyyupalkis.dev
+This is the repo of my little blog/portfolio [eyyupalkis.dev](https://eyyupalkis.dev).
 
 ### Info
 Theme: [Leonids](http://renyuanz.github.io/leonids) by [@renyuanz](http://github.com/renyuanz)

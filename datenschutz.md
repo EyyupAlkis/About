@@ -15,7 +15,7 @@ Elbestr. 38
 53127 Bonn  
 Deutschland  
 info@simonknott.de  
-Impressum: https://simonknott.de/impressum
+Impressum: https://eyyupalkis.dev/impressum
 
 ### Arten der verarbeiteten Daten:
 

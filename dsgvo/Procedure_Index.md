@@ -1,4 +1,4 @@
-# Procedure Index for *simonknott.de*
+# Procedure Index for *eyyupalkis.dev*
 > DSGVO
 
 Procedures:
