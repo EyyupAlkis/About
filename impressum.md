@@ -11,7 +11,7 @@ Elbestraße 38
 
 ## Kontakt:
 
-E-Mail: info@simonknott.de
+E-Mail: contact@eyyupalkis.dev
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
 

@@ -125,7 +125,7 @@ Nun kann man beginnen, eine neue Mail zu schreiben:
 ```
 MAIL FROM: test@simonknott.de
 250 ok
-RCPT TO: info@simonknott.de
+RCPT TO: contact@eyyupalkis.dev
 250 Accepted
 ```
 
@@ -136,7 +136,7 @@ DATA
 354 Enter message, ending with “.”
 
 From: test@simonknott.de
-To: info@simonknott.de
+To: contact@eyyupalkis.dev
 Subject: Test-Email
 Date: Tue, 26 June 2018 11:16:42
 
