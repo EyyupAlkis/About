@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /me/
+permalink: /about/
 ---
 
 Hi! I'm Simon, and I'm passionate about supercharging software development through well-built developer tooling.
