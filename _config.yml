@@ -9,12 +9,39 @@ description: Eyyup's Blog & Portfolio
 url: https://eyyupalkis.dev
 logo: /img/logo.svg
 lang: en
-keywords: ["Programming", "Software Developing", "Java", "JavaScript", "OrbiTeam", "React", "React Native", "Typescript", "Docker", "Student"]
+keywords:
+  [
+    "Android Developer",
+    "Android Engineer",
+    "Mobile Developer",
+    "Flutter Devaloper",
+    "MVVM",
+    "MVI",
+    "Jetpack Compose",
+    "Jetpack Components",
+    "Dart",
+    "Kotlin",
+    "Java",
+  ]
 social:
   name: Eyyüp Alkış
   links:
     - http://github.com/EyyupAlkis
-exclude: [vendor, LICENSE.txt, package-lock.json, README.md, Gemfile, Gemfile.lock, build, node_modules, draw, katex.js, Makefile, dsgvo]
+exclude:
+  [
+    vendor,
+    LICENSE.txt,
+    package-lock.json,
+    README.md,
+    Gemfile,
+    Gemfile.lock,
+    build,
+    node_modules,
+    draw,
+    katex.js,
+    Makefile,
+    dsgvo,
+  ]
 collections:
   slides:
     output: true
@@ -37,11 +64,11 @@ defaults:
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
-markdown:          kramdown
-highlighter:       rouge
+timezone: Europe/Paris
+markdown: kramdown
+highlighter: rouge
 excerpt_separator: <!--more-->
-permalink:         /articles/:title.html
+permalink: /articles/:title.html
 
 kramdown:
   auto_ids: true
@@ -59,7 +86,7 @@ katex:
   path_to_js: katex.js
 
 mermaid:
-  src: 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/7.0.0/mermaid.min.js'
+  src: "https://cdnjs.cloudflare.com/ajax/libs/mermaid/7.0.0/mermaid.min.js"
 
 algolia:
   application_id: SL5XJB46I6
@@ -91,7 +118,7 @@ owner:
   bing-verify:
   github: EyyupAlkis
   # gitlab: skn0tt
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  stackoverflow: 10106788/eyyüp-alkış   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: alkiseyyup
   skype: #username
   xing: #username
