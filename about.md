@@ -45,7 +45,7 @@ My full CV can be found on <a href="https://www.linkedin.com/in/alkiseyyup/">Lin
 </p>
 </section>
 
-<details>
+<details open>
   <summary>
   <h2>Other Projects</h2>
   </summary>
