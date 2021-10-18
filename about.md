@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Hi! I'm Simon, and I'm passionate about supercharging software development through well-built developer tooling.
+Hi! I'm Eyyüp, and I'm passionate about mobile development.
 
-Wanna chat? <a href="https://twitter.com/skn0tt">Drop me a DM</a>.
+Wanna chat? <a href="https://twitter.com/rathi246">Drop me a DM</a>.
 
-📍 Location: Berlin, Germany
+📍 Location: Istanbul, Turkey
 
 <section>
 🧑‍💻 Current:
@@ -30,14 +30,14 @@ Wanna chat? <a href="https://twitter.com/skn0tt">Drop me a DM</a>.
 
 <section>
 <p>
-📚 Studying: IT Systems Engineering @ <a href="https://hpi.de">Hasso Plattner Institute</a>
+📚 Studied: Biomedical Engineering @ <a href="https://hpi.de">Namik Kemal University</a>
 </p>
 </section>
 
-<section>
+<!-- <section>
 As a member of HPI's "Schülerklub", I teach school children about computer science.
 I sometimes devise custom-made learning tools, e.g. <a href="https://github.com/skn0tt/protocols-playground">Protocols Playground</a> or <a href="https://github.com/Skn0tt/numLisp">numLisp</a>.
-</section>
+</section> -->
 
 <section>
 <p>
