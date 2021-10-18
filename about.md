@@ -41,12 +41,12 @@ I sometimes devise custom-made learning tools, e.g. <a href="https://github.com/
 
 <section>
 <p>
-My full CV can be found on <a href="https://www.linkedin.com/in/simon-knott/">LinkedIn</a>.
+My full CV can be found on <a href="https://www.linkedin.com/in/alkiseyyup/">LinkedIn</a>.
 </p>
 </section>
 
-<details>
-  <summary>Other Projects</summary>
+<details class="description" open>
+  <summary  data-open="Other Projects" data-close="Other Projects"></summary>
 
   <ul style="list-style-type: circle;">
     <li>Built & marketed <a href="https://ente.app">EntE</a>, a digital excuse workflow for schools. In use at two german schools, ~1500 users. Won the <a href="https://www.uni-bonn.de/neues/232-2018">Dr. Hans-Riegel-Fachpreis.</a></li>
