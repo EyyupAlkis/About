@@ -45,8 +45,10 @@ My full CV can be found on <a href="https://www.linkedin.com/in/alkiseyyup/">Lin
 </p>
 </section>
 
-<details class="description" open>
-  <summary  data-open="Other Projects" data-close="Other Projects"></summary>
+<details>
+  <summary>
+  <h2>Other Projects</h2>
+  </summary>
 
   <ul style="list-style-type: circle;">
     <li>Built & marketed <a href="https://ente.app">EntE</a>, a digital excuse workflow for schools. In use at two german schools, ~1500 users. Won the <a href="https://www.uni-bonn.de/neues/232-2018">Dr. Hans-Riegel-Fachpreis.</a></li>
