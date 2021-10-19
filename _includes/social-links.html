@@ -1,12 +1,10 @@
 <div class="social-links">
   <ul>
-    {% if author.upwork %}<li><a href="https://www.upwork.com/freelancers/{{ author.upwork }}" class="social-link-item"
-        target="_blank" title="UpWork" data-proofer-ignore><i class="icon-upwork"></i></a></li>{% endif %}
-    {% if author.linkedin %}<li><a href="http://linkedin.com/in/{{ author.linkedin }}" class="social-link-item"
-        target="_blank" title="LinkedIn">
-      <svg baseProfile="tiny" height="24px" id="Layer_1" version="1.2" viewBox="0 0 24 24"
-          width="24px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink">
+    {% if author.linkedin %}
+    <li><a href="http://linkedin.com/in/{{ author.linkedin }}" class="social-link-item" target="_blank"
+        title="LinkedIn">
+        <svg baseProfile="tiny" height="24px" id="Layer_1" version="1.2" viewBox="0 0 24 24" width="24px"
+          xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g>
             <path
               d="M8,19H5V9h3V19z M19,19h-3v-5.342c0-1.392-0.496-2.085-1.479-2.085c-0.779,0-1.273,0.388-1.521,1.165C13,14,13,19,13,19h-3   c0,0,0.04-9,0-10h2.368l0.183,2h0.062c0.615-1,1.598-1.678,2.946-1.678c1.025,0,1.854,0.285,2.487,1.001   C18.683,11.04,19,12.002,19,13.353V19z" />
@@ -16,14 +14,8 @@
           </g>
         </svg>
         <i class=""></i>
-      </a></li>{% endif %}
-    {% if author.stackoverflow %}<li><a href="http://stackoverflow.com/users/{{ author.stackoverflow }}"
-        class="social-link-item" target="_blank" title="StackOverflow">
-        <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M18.986 21.865v-6.404h2.134V24H1.844v-8.539h2.13v6.404h15.012zM6.111 19.731H16.85v-2.137H6.111v2.137zm.259-4.852l10.48 2.189.451-2.07-10.478-2.187-.453 2.068zm1.359-5.056l9.705 4.53.903-1.95-9.706-4.53-.902 1.936v.014zm2.715-4.785l8.217 6.855 1.359-1.62-8.216-6.853-1.35 1.617-.01.001zM15.751 0l-1.746 1.294 6.405 8.604 1.746-1.294L15.749 0h.002z" />
-        </svg><i class="fab fa-fw fa-stack-overflow"></i></a>
-    </li>{% endif %}
+      </a></li>
+    {% endif %}
     {% if author.email %}
     <li>
       <a href="mailto:{{ author.email }}" class="social-link-item" target="_blank" title="{{ author.email }}">
@@ -34,19 +26,15 @@
       </a>
     </li>
     {% endif%}
-    {% if author.facebook %}<li><a href="http://facebook.com/{{ author.facebook }}" class="social-link-item"
-        target="_blank" title="Facebook"><i class="fab fa-fw fa-facebook"></i></a></li>{% endif %}
-    {% if author.google.plus %}<li><a href="http://plus.google.com/+{{ author.google.plus }}" class="social-link-item"
-        target="_blank" title="Google+"><i class="fab fa-fw fa-google-plus"></i> Google+</a></li>{% endif %}
-
-    {% if author.skype %}<li><a href="skype:{{ author.skype }}" class="social-link-item" target="_blank"
-        title="Skype"><i class="fab fa-fw fa-skype"></i></a></li>{% endif %}
-    {% if author.xing %}<li><a href="http://www.xing.com/profile/{{ author.xing }}" class="social-link-item"
-        target="_blank" title="Xing"><i class="fab fa-fw fa-xing"></i></a></li>{% endif %}
-    {% if author.instagram %}<li><a href="http://instagram.com/{{ author.instagram }}" class="social-link-item"
-        target="_blank" title="Instagram"><i class="fab fa-fw fa-instagram"></i></a></li>{% endif %}
-    {% if author.tumblr %}<li><a href="http://{{ author.tumblr }}.tumblr.com" class="social-link-item" target="_blank"
-        title="Tumblr"><i class="fab fa-fw fa-tumblr"></i></a></li>{% endif %}
+    {% if author.stackoverflow %}
+    <li><a href="http://stackoverflow.com/users/{{ author.stackoverflow }}" class="social-link-item" target="_blank"
+        title="StackOverflow">
+        <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M18.986 21.865v-6.404h2.134V24H1.844v-8.539h2.13v6.404h15.012zM6.111 19.731H16.85v-2.137H6.111v2.137zm.259-4.852l10.48 2.189.451-2.07-10.478-2.187-.453 2.068zm1.359-5.056l9.705 4.53.903-1.95-9.706-4.53-.902 1.936v.014zm2.715-4.785l8.217 6.855 1.359-1.62-8.216-6.853-1.35 1.617-.01.001zM15.751 0l-1.746 1.294 6.405 8.604 1.746-1.294L15.749 0h.002z" />
+        </svg><i class="fab fa-fw fa-stack-overflow"></i></a>
+    </li>
+    {% endif %}
     {% if author.github %}
     <li>
       <a href="http://github.com/{{ author.github }}" class="social-link-item" target="_blank" title="Github">
@@ -58,10 +46,6 @@
       </a>
     </li>
     {% endif %}
-    {% if author.gitlab %}<li><a href="http://gitlab.com/u/{{ author.gitlab }}" class="social-link-item" target="_blank"
-        title="Gitlab"><i class="fab fa-fw fa-gitlab"></i></a></li>{% endif %}
-
-
     {% if author.twitter %}
     <li>
       <a href="http://twitter.com/{{ author.twitter }}" class="social-link-item" target="_blank" title="Twitter">
@@ -72,6 +56,22 @@
       </a>
     </li>
     {% endif %}
+    {% if author.upwork %}<li><a href="https://www.upwork.com/freelancers/{{ author.upwork }}" class="social-link-item"
+        target="_blank" title="UpWork" data-proofer-ignore><i class="icon-upwork"></i></a></li>{% endif %}
+    {% if author.facebook %}<li><a href="http://facebook.com/{{ author.facebook }}" class="social-link-item"
+        target="_blank" title="Facebook"><i class="fab fa-fw fa-facebook"></i></a></li>{% endif %}
+    {% if author.google.plus %}<li><a href="http://plus.google.com/+{{ author.google.plus }}" class="social-link-item"
+        target="_blank" title="Google+"><i class="fab fa-fw fa-google-plus"></i> Google+</a></li>{% endif %}
+    {% if author.skype %}<li><a href="skype:{{ author.skype }}" class="social-link-item" target="_blank"
+        title="Skype"><i class="fab fa-fw fa-skype"></i></a></li>{% endif %}
+    {% if author.xing %}<li><a href="http://www.xing.com/profile/{{ author.xing }}" class="social-link-item"
+        target="_blank" title="Xing"><i class="fab fa-fw fa-xing"></i></a></li>{% endif %}
+    {% if author.instagram %}<li><a href="http://instagram.com/{{ author.instagram }}" class="social-link-item"
+        target="_blank" title="Instagram"><i class="fab fa-fw fa-instagram"></i></a></li>{% endif %}
+    {% if author.tumblr %}<li><a href="http://{{ author.tumblr }}.tumblr.com" class="social-link-item" target="_blank"
+        title="Tumblr"><i class="fab fa-fw fa-tumblr"></i></a></li>{% endif %}
+    {% if author.gitlab %}<li><a href="http://gitlab.com/u/{{ author.gitlab }}" class="social-link-item" target="_blank"
+        title="Gitlab"><i class="fab fa-fw fa-gitlab"></i></a></li>{% endif %}
     {% if author.lastfm %}<li><a href="http://lastfm.com/user/{{ author.lastfm }}" class="social-link-item"
         target="_blank" title="Last.fm"><i class="fas fa-fw fa-music"></i></a></li>{% endif %}
     {% if author.dribbble %}<li><a href="http://dribbble.com/{{ author.dribbble }}" class="social-link-item"
