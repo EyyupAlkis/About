@@ -202,6 +202,20 @@ a.read-more {
     border-color: #77bcf1;
   }
 }
+.github {
+  background-color: #77bcf1;
+  color: $white;
+  border-color: #77bcf1;
+  &:visited {
+    color: $white;
+    border-color: #77bcf1;
+  }
+  &:hover {
+    background-color: $white;
+    color: #77bcf1;
+    border-color: #77bcf1;
+  }
+}
 .facebook {
   background-color: #627aac;
   color: $white;
