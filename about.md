@@ -82,7 +82,4 @@ My full CV can be found on <a href="https://www.linkedin.com/in/alkiseyyup/">Lin
   </ul>
 </details>
 <br /> 
-<br /> 
-<br /> 
-
 **is it done? then do it better next time.**
