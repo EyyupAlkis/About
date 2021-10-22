@@ -4,7 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Hi! I'm Eyyüp, and I'm passionate about mobile development.
+
+Hi there, I am Eyyüp Alkış. 
 
 Wanna chat? <a href="https://twitter.com/rathi246">Drop me a DM</a>.
 
@@ -13,24 +14,30 @@ Wanna chat? <a href="https://twitter.com/rathi246">Drop me a DM</a>.
 <section>
 🧑‍💻 Current:
   <ul style="margin-top: 0.2em; list-style-type: circle; padding-inline-start: 26px;">
-    <li>Creator & Developer of <a href="https://quirrel.dev">Quirrel</a></li>
-    <li>L2 Maintainer of <a href="https://blitzjs.com">Blitz.js</a></li>
-    <li>Author of <a href="https://github.com/blitzjs/superjson">SuperJSON</a></li>
+    <li>Mobile Developer <a href="https://www.huawei.com/tr/">Huawei</a></li>
   </ul>
 </section>
 
 <section>
+🏃‍♂️💻 Previous:
+  <ul style="margin-top: 0.2em; list-style-type: circle; padding-inline-start: 26px;">
+    <li>Android Developer <a href="https://www.huawei.com/tr/">Intertech</a></li>
+    <li>Android Developer <a href="https://www.iwt.com.tr/">Istanbul Web Technologies</a></li>
+  </ul>
+</section>
+
+<!-- <section>
 📺 Appearances:
   <ul style="margin-top: 0.2em; list-style-type: circle; padding-inline-start: 26px;">
     <li><a href="/articles/FSJam-Podcast.html">FSJam Podcast Episode 15 - Quirrel with Simon Knott</a></li>
     <li><a href="/articles/Fully-typed-Fullstack-Development.html">Fully typed fullstack development using Blitz.js</a></li>
     <li><a href="/articles/Using-TypeScript-with-React.html">Using TypeScript with React</a></li>
   </ul>
-</section>
+</section> -->
 
 <section>
 <p>
-📚 Studied: Biomedical Engineering @ <a href="https://hpi.de">Namik Kemal University</a>
+📚 Studied: Biomedical Engineering @<a href="http://www.nku.edu.tr/">Namik Kemal University</a>
 </p>
 </section>
 
@@ -47,19 +54,35 @@ My full CV can be found on <a href="https://www.linkedin.com/in/alkiseyyup/">Lin
 
 <details open>
   <summary>
-  <h2>Other Projects</h2>
+  <h2>Projects</h2>
   </summary>
 
   <ul style="list-style-type: circle;">
-    <li>Built & marketed <a href="https://ente.app">EntE</a>, a digital excuse workflow for schools. In use at two german schools, ~1500 users. Won the <a href="https://www.uni-bonn.de/neues/232-2018">Dr. Hans-Riegel-Fachpreis.</a></li>
-    <li>Built <a href="https://prisma-erd.simonknott.de">prisma-erd</a>, a Prisma schema visualizer.</li>
-    <li>Created <a href="https://github.com/Skn0tt/markdown-link-expander">Markdown Link Expander</a> and <a href="https://github.com/Skn0tt/markdown-tweet-expander">Tweet Expander</a>, VS Code extensions to simplify markdown-based note taking.</li>
-    <li>Built <a href="https://keyfwd.simonknott.de">keyfwd</a>, a tool to remote-control keyboards.</li>
-    <li>Adapted <a href="https://github.com/get-alex/alex">Alex</a>, the linter for respectful writing, as a <a href="https://github.com/Skn0tt/alex-browser-extension">browser extension</a>.</li>
-    <li>Designed & Built <a href="https://shortcutlery.simonknott.de">Shortcutlery</a>, a utility for adding terminal commands to 
-    Spotlight.</li>
-    <li>Toyed with F# for <a href="https://github.com/Skn0tt/RailMail">RailMail</a>, a reactive SMTP dispatcher.</li>
-    <li>Built <a href="https://github.com/Skn0tt/signer">Signer</a>, a JWKS provider and key rotation library.</li>
-    <li>Built <a href="https://github.com/Skn0tt/Promoot">Promoot</a>, a ticketing solution used for parties at my high school.</li>
+    <li> 
+      <a href="https://huaweimobileservices.com/assistant/">Today Assistant</a>, a mobile assistant that works on huawei devices. Being part of the team developing it. Using java and much more custom views.  
+    </li>
+    <li> 
+      <a href="https://wefocus.app/">WeFocus</a>, survey and employee engagment application. Taking responsibility at planning app's roadmap, getting warm with Flutter, developing first pages of app.  
+    </li>
+    <li> 
+      <a href="https://www.fastpay.com.tr/">FastPay</a>, a mobile banking application. Written in kotlin and built on MVVM architecture. Dagger2, RxJava, Coroutines are several technologies that used in this project. I took responbility about developing new features and interfaces. 
+        <ul style="list-style-type: circle;">  </ul>
+    </li>
+    <li> 
+      <a href="https://play.google.com/store/apps/details?id=dev.alks.learngermanartikel">Learn German</a>, exciting side project. Helps users about increasing their german vocabulary skills. Written in Kotlin. Built on MVVM. I've developed it because I wanted to experience latest android technologies at first hand. I've puplished it on  Google Play and it has done a good job so far.</li>
+    <li> 
+      <a href="https://play.google.com/store/apps/details?id=dev.alks.metis.horoscopetarot">Metis Tarot</a>a small side project  which is available on Google Play. Written in kotlin and used Coroutine, Koin, Retrofit libraries. I've developed it to catch up with new tecnologies like Koin DI. 
+    </li>
+    <!-- <li>
+       <a href="https://shortcutlery.simonknott.de">ViwoErp</a>, a utility for adding terminal commands to Spotlight.
+    </li>
+    <li> 
+      <a href="https://github.com/Skn0tt/RailMail">Petroom</a>, a reactive SMTP dispatcher.
+    </li> -->
   </ul>
 </details>
+<br /> 
+<br /> 
+<br /> 
+
+**is it done? then do it better next time.**
