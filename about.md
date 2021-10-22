@@ -71,7 +71,7 @@ My full CV can be found on <a href="https://www.linkedin.com/in/alkiseyyup/">Lin
     <li> 
       <a href="https://play.google.com/store/apps/details?id=dev.alks.learngermanartikel">Learn German</a>, exciting side project. Helps users about increasing their german vocabulary skills. Written in Kotlin. Built on MVVM. I've developed it because I wanted to experience latest android technologies at first hand. I've puplished it on  Google Play and it has done a good job so far.</li>
     <li> 
-      <a href="https://play.google.com/store/apps/details?id=dev.alks.metis.horoscopetarot">Metis Tarot</a>a small side project  which is available on Google Play. Written in kotlin and used Coroutine, Koin, Retrofit libraries. I've developed it to catch up with new tecnologies like Koin DI. 
+      <a href="https://play.google.com/store/apps/details?id=dev.alks.metis.horoscopetarot">Metis Tarot</a>, a small side project  which is available on Google Play. Written in kotlin and used Coroutine, Koin, Retrofit libraries. I've developed it to catch up with new tecnologies like Koin DI. 
     </li>
     <!-- <li>
        <a href="https://shortcutlery.simonknott.de">ViwoErp</a>, a utility for adding terminal commands to Spotlight.
