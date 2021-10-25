@@ -21,7 +21,7 @@ Wanna chat? <a href="https://twitter.com/rathi246">Drop me a DM</a>.
 <section>
 🏃‍♂️💻 Previous:
   <ul style="margin-top: 0.2em; list-style-type: circle; padding-inline-start: 26px;">
-    <li>Android Developer <a href="https://www.huawei.com/tr/">Intertech</a></li>
+    <li>Android Developer <a href="https://www.intertech.com.tr">Intertech</a></li>
     <li>Android Developer <a href="https://www.iwt.com.tr/">Istanbul Web Technologies</a></li>
   </ul>
 </section>
