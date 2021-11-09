@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ViwoErp
+title: 
 permalink: /projects/viwoerp/
 ---
 
