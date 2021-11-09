@@ -4,8 +4,6 @@ title: Petroom
 permalink: /projects/petroom/
 ---
 
-
-
 <table>
   <tr>
     <td>Login Page</td>
