@@ -59,25 +59,25 @@ My full CV can be found on <a href="https://www.linkedin.com/in/alkiseyyup/">Lin
 
   <ul style="list-style-type: circle;">
     <li> 
-      <a href="https://huaweimobileservices.com/assistant/">Today Assistant</a>, a mobile assistant that works on huawei devices. Being part of the team developing it. Using java and much more custom views.  
+      <a href="https://huaweimobileservices.com/assistant/">Today Assistant</a>, a mobile assistant that works on Huawei devices. Being part of the team developing it. Using java and much more custom views.  
     </li>
     <li> 
-      <a href="https://wefocus.app/">WeFocus</a>, survey and employee engagment application. Taking responsibility at planning app's roadmap, getting warm with Flutter, developing first pages of app.  
+      <a href="https://wefocus.app/">WeFocus</a>, survey and employee engagement application. Taking responsibility for planning the app's roadmap, getting warm with Flutter, developing the first pages of the app.  
     </li>
     <li> 
-      <a href="https://www.fastpay.com.tr/">FastPay</a>, a mobile banking application. Written in kotlin and built on MVVM architecture. Dagger2, RxJava, Coroutines are several technologies that used in this project. I took responbility about developing new features and interfaces. 
+      <a href="https://www.fastpay.com.tr/">FastPay</a>, a mobile banking application. Written in kotlin and built on MVVM architecture. Dagger2, RxJava, Coroutines are several technologies that were used in this project. I took responsibility for developing new features and interfaces. 
         <ul style="list-style-type: circle;">  </ul>
     </li>
     <li> 
-      <a href="https://play.google.com/store/apps/details?id=dev.alks.learngermanartikel">Learn German</a>, exciting side project. Helps users about increasing their german vocabulary skills. Written in Kotlin. Built on MVVM. I've developed it because I wanted to experience latest android technologies at first hand. I've puplished it on  Google Play and it has done a good job so far.</li>
+      <a href="https://play.google.com/store/apps/details?id=dev.alks.learngermanartikel">Learn German</a>, an exciting side project. Helps users about increasing their german vocabulary skills. Written in Kotlin. Built on MVVM. I've developed it because I wanted to experience the latest android technologies first hand. I've published it on  Google Play and it has done a good job so far.</li>
     <li> 
-      <a href="https://play.google.com/store/apps/details?id=dev.alks.metis.horoscopetarot">Metis Tarot</a>, a small side project  which is available on Google Play. Written in kotlin and used Coroutine, Koin, Retrofit libraries. I've developed it to catch up with new tecnologies like Koin DI. 
+      <a href="https://play.google.com/store/apps/details?id=dev.alks.metis.horoscopetarot">Metis Tarot</a>, a small side project which is available on Google Play. Written in kotlin and used Coroutine, Koin, Retrofit libraries. I've developed it to catch up with new technologies like Koin DI. 
     </li>
      <li>
-       <a href="/projects/petroom">Petroom</a>, a utility for adding terminal commands to Spotlight.
+       <a href="/projects/petroom">Petroom</a>, Pet hotel application, developed at IWT
     </li>
     <li> 
-      <a href="/projects/viwoerp">ViwoErp</a>, a reactive SMTP dispatcher.
+      <a href="/projects/viwoerp">ViwoErp</a> Mobile interface of ViwoErp. Marketplace owner can track their order, overview all sales, and ship orders to their customers. Developed  
     </li> 
   </ul>
 </details>
