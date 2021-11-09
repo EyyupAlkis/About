@@ -73,12 +73,12 @@ My full CV can be found on <a href="https://www.linkedin.com/in/alkiseyyup/">Lin
     <li> 
       <a href="https://play.google.com/store/apps/details?id=dev.alks.metis.horoscopetarot">Metis Tarot</a>, a small side project  which is available on Google Play. Written in kotlin and used Coroutine, Koin, Retrofit libraries. I've developed it to catch up with new tecnologies like Koin DI. 
     </li>
-    <!-- <li>
-       <a href="https://shortcutlery.simonknott.de">ViwoErp</a>, a utility for adding terminal commands to Spotlight.
+     <li>
+       <a href="/projects/petroom">Petroom</a>, a utility for adding terminal commands to Spotlight.
     </li>
     <li> 
-      <a href="https://github.com/Skn0tt/RailMail">Petroom</a>, a reactive SMTP dispatcher.
-    </li> -->
+      <a href="/projects/viwoerp">ViwoErp</a>, a reactive SMTP dispatcher.
+    </li> 
   </ul>
 </details>
 <br /> 
