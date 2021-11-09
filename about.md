@@ -77,7 +77,7 @@ My full CV can be found on <a href="https://www.linkedin.com/in/alkiseyyup/">Lin
        <a href="/projects/petroom">Petroom</a>, Pet hotel application, developed at IWT
     </li>
     <li> 
-      <a href="/projects/viwoerp">ViwoErp</a> Mobile interface of ViwoErp. Marketplace owner can track their order, overview all sales, and ship orders to their customers. Developed  
+      <a href="/projects/viwoerp">ViwoErp</a> Mobile interface of ViwoErp. Marketplace owner can track their order, overview all sales, and ship orders to their customers. Developed at IWT 
     </li> 
   </ul>
 </details>

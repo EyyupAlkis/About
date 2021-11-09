@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Road to Open Source
+title: My Blog Journey
 categories:
-  - "Open Source"
-  - "Web Development"
+  - "Blog"
+  - "Personal"
 lang: en
 ---
 
