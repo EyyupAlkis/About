@@ -53,8 +53,8 @@ My full CV can be found on <a href="https://www.linkedin.com/in/alkiseyyup/">Lin
 </section>
 
 <details open>
-  <summary>
-  <h2>Projects</h2>
+  <summary  style="font-size:24px">
+    Projects
   </summary>
 
   <ul style="list-style-type: circle;">
