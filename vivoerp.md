@@ -21,6 +21,7 @@ I took responsibility from start to end for this project. I was only an android 
   </tr>
 </table>
 <br/>
+<br/>
 <table>
   <tr>
     <td>Licence Entry Page</td>
@@ -34,6 +35,7 @@ I took responsibility from start to end for this project. I was only an android 
   </tr>
 </table>
 <br/>
+<br/>
 <table>
   <tr>
     <td>Warehouse Management</td>
@@ -46,6 +48,7 @@ I took responsibility from start to end for this project. I was only an android 
     <td><img src="/img/e-depocikisliste.png" width=270 height=480></td>
   </tr>
 </table>
+<br/>
 <br/>
 <table>
   <tr>
