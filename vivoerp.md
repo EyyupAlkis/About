@@ -15,9 +15,9 @@ I took responsibility from start to end for this project. I was only an android 
      <td>Navigation Menu</td>
   </tr>
   <tr>
-    <td><img src="../img/e-main.png" width=270 height=480></td>
+    <td><img src="/img/e-main.png" width=270 height=480></td>
     <td><img src="/img/e-login.png" width=270 height=480></td>
-    <td><img src="../e-navigation.png" width=270 height=480></td>
+    <td><img src="/img/e-navigation.png" width=270 height=480></td>
   </tr>
  </table>
 <br />
@@ -28,9 +28,9 @@ I took responsibility from start to end for this project. I was only an android 
      <td>Daily a Single Sale Detail</td>
   </tr>
   <tr>
-    <td><img src="/e-lisans.png" width=270 height=480></td>
-    <td><img src="e-dailysales.png" width=270 height=480></td>
-    <td><img src="../About/img/e-dailysalesdetail.png" width=270 height=480><td>
+    <td><img src="/img/e-lisans.png" width=270 height=480></td>
+    <td><img src="/img/e-dailysales.png" width=270 height=480></td>
+    <td><img src="/img/e-dailysalesdetail.png" width=270 height=480><td>
   </tr>
  </table>
 <br />
@@ -41,9 +41,9 @@ I took responsibility from start to end for this project. I was only an android 
      <td>Order Overview</td>
   </tr>
   <tr>
-    <td><img src="../About/img/e-dc.png" width=270 height=480></td>
-    <td><img src="../About/img/e-dcfiltre.png" width=270 height=480></td>
-    <td><img src="../About/img/e-depocikisliste.png" width=270 height=480></td>
+    <td><img src="/img/e-dc.png" width=270 height=480></td>
+    <td><img src="/img/e-dcfiltre.png" width=270 height=480></td>
+    <td><img src="/img/e-depocikisliste.png" width=270 height=480></td>
 
   </tr>
  </table>
@@ -55,9 +55,9 @@ I took responsibility from start to end for this project. I was only an android 
      <td>Scan & Start Shipment Page</td>
   </tr>
   <tr>
-    <td><img src="../About/img/e-dclisteayrıntı.png" width=270 height=480></td>
-    <td><img src="../About/img/e-dcs.png" width=270 height=480></td>
-    <td><img src="../About/img/e-barkodscan.png" width=270 height=480></td>
+    <td><img src="/img/e-dclisteayrıntı.png" width=270 height=480></td>
+    <td><img src="/img/e-dcs.png" width=270 height=480></td>
+    <td><img src="/img/e-barkodscan.png" width=270 height=480></td>
   </tr>
  </table>
 
