@@ -15,17 +15,17 @@ I took responsibility from start to end for this project. I was only an android 
      <td>Navigation Menu</td>
   </tr>
   <tr>
-    <td><img src="../About/img/e-main.png" width=270 height=480></td>
+    <td><img src="../img/e-main.png" width=270 height=480></td>
     <td><img src="../About/img/e-login.png" width=270 height=480></td>
     <td><img src="../About/img/e-navigation.png" width=270 height=480></td>
   </tr>
  </table>
-
+<br />
  <table>
   <tr>
     <td>Licence Entry Page</td>
      <td>Daily Sales</td>
-     <td>Daily Sales Detail</td>
+     <td>Daily a Single Sale Detail</td>
   </tr>
   <tr>
     <td><img src="../About/img/e-lisans.png" width=270 height=480></td>
@@ -33,7 +33,7 @@ I took responsibility from start to end for this project. I was only an android 
     <td><img src="../About/img/e-dailysalesdetail.png" width=270 height=480><td>
   </tr>
  </table>
-
+<br />
  <table>
   <tr>
     <td>Warehouse Management</td>
@@ -47,7 +47,7 @@ I took responsibility from start to end for this project. I was only an android 
 
   </tr>
  </table>
-
+<br />
   <table>
   <tr>
     <td>Order Proceed</td>
