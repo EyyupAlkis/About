@@ -6,6 +6,7 @@ permalink: /projects/viwoerp/
 
 
 I took responsibility from start to end for this project. I was only an android developer at IWT during development. It was hard but I've learned a lot from this application. Written in java. Used Retrofit and SQL lite technologies. You can see pages in the ViwoErp android application from below.     
+
 <table>
   <tr>
     <td>Main Page</td>
@@ -25,7 +26,7 @@ I took responsibility from start to end for this project. I was only an android 
   <tr>
     <td><img src="/img/e-lisans.png" width=320 height=480></td>
     <td><img src="/img/e-dailysales.png" width=320 height=480></td>
-    <td><img src="/img/e-dailysalesdetail.png" width=320 height=480><td>
+    <td><img src="/img/e-dailysalesdetail.png" width=320 height=480></td>
   </tr>
   <tr>
     <td>Warehouse Management</td>
