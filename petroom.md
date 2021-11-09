@@ -4,6 +4,8 @@ title: Petroom
 permalink: /projects/petroom/
 ---
 
+Petroom was a pet hotel booking application. I've developed this application with web design. Written in java. I've completed all features as the only mobile developer team at IWT. This project remained half and never met with the customer because of the product owner. You can see the detail of the pages in the pictures below.
+
 <table>
   <tr>
     <td>Login Page</td>
@@ -31,9 +33,9 @@ permalink: /projects/petroom/
     <td>Rezervation</td>
   </tr>
   <tr>
-    <td><img src="/img/p-rez1.jpg" width=270 height=480></td>
-    <td><img src="/img/p-rez2.jpg" width=270 height=480></td>
-    <td><img src="/img/p-rez3.jpg" width=270 height=480></td>
+    <td><img src="/img/p-rez1.png" width=270 height=480></td>
+    <td><img src="/img/p-rez2.png" width=270 height=480></td>
+    <td><img src="/img/p-rez3.png" width=270 height=480></td>
   </tr>
   <tr>
     <td>FAQ</td>
@@ -42,7 +44,7 @@ permalink: /projects/petroom/
   </tr>
   <tr>
     <td><img src="/img/p-sss.jpg" width=270 height=480></td>
-    <td><img src="/img/e-blog.jpg" width=270 height=480></td>
+    <td><img src="/img/p-blog.jpg" width=270 height=480></td>
     <td><img src="/img/p-blogDetail.jpg" width=270 height=480></td>
   </tr>
 </table>
