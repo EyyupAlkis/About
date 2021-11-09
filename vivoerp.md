@@ -19,9 +19,9 @@ I took responsibility from start to end for this project. I was only an android 
     <td><img src="/img/e-login.png" width=270 height=480></td>
     <td><img src="/img/e-navigation.png" width=270 height=480></td>
   </tr>
- </table>
+</table>
 <br/>
- <table>
+<table>
   <tr>
     <td>Licence Entry Page</td>
     <td>Daily Sales</td>
@@ -32,9 +32,9 @@ I took responsibility from start to end for this project. I was only an android 
     <td><img src="/img/e-dailysales.png" width=270 height=480></td>
     <td><img src="/img/e-dailysalesdetail.png" width=270 height=480><td>
   </tr>
- </table>
+</table>
 <br/>
- <table>
+<table>
   <tr>
     <td>Warehouse Management</td>
     <td>Order Filter</td>
@@ -45,9 +45,9 @@ I took responsibility from start to end for this project. I was only an android 
     <td><img src="/img/e-dcfiltre.png" width=270 height=480></td>
     <td><img src="/img/e-depocikisliste.png" width=270 height=480></td>
   </tr>
- </table>
+</table>
 <br/>
-  <table>
+<table>
   <tr>
     <td>Order Proceed</td>
     <td>Order Detail</td>
@@ -58,5 +58,5 @@ I took responsibility from start to end for this project. I was only an android 
     <td><img src="/img/e-dcs.png" width=270 height=480></td>
     <td><img src="/img/e-barkodscan.png" width=270 height=480></td>
   </tr>
- </table>
+</table>
 
