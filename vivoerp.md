@@ -1,10 +1,9 @@
 ---
 layout: page
-title: 
+title: ViwoErp
 permalink: /projects/viwoerp/
 ---
 
-# ViwoErp - ERP Solution for Sellers
 
 I took responsibility from start to end for this project. I was only an android developer at IWT during development. It was hard but I've learned a lot from this application. Written in java. Used Retrofit and SQL lite technologies. You can see pages in the ViwoErp android application from below.     
 
