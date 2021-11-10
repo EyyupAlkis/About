@@ -6,9 +6,11 @@ categories:
   - "Architecture"
 lang: en
 ---
+
 Architecture patterns stand for creating scalable and maintainable apps. In android history, there are already **MVC**, **MVP** and **MVVM** patterns. **MVI** (Model, View, Intent) is the one of latest architecture approach in android world. MVVM and MVP have same footprint with MVC at some point. **Controller** in MVC has almost the same responsibility with **Presenter** in MVP and **Viewmodel** in MVVM. MVI has new ideas which are not present in other architecture patterns. So now time to ask;
 
-# What is the MVI?
+<!--more-->
+## What is the MVI?
 
 MVI is including users in the software design steps. '**I**' for MVI stands for intent and it represents the intention of the user. Do not confuse it with intent in android that helps developers create new activities, services, etc.  Every action of the user can be considered as an intent. '**V**' represents the **view** as usual. In the Android world, it can be fragments of activities or custom views. '**M**' stands for the **model**. The model can be described as the state or data of the user interface. MVI provides unidirectional state flow by making this model immutable. By unidirectional flow, every intent matches its result. That provides fewer buggy applications.
 
@@ -196,7 +198,7 @@ We went through each component in MVI so far. There is a sample project below. Y
 * It causes us to write much boilerplate code since we have to maintain every state for each user intent.
 * Creating states for each user action can be a problem for app memory management. And also can cost too much for simple screens.
 
-I've developed simple movie app for demonstrating MVI architecture. You can check out [this repository](https://github.com/EyyupAlkis/MovieShow/)  to find out more.
+I've developed simple movie app for demonstrating MVI architecture. You can check out [**this repository**](https://github.com/EyyupAlkis/MovieShow/)  to find out more.
 
 Many thanks for reading, I hope you find it useful. 
 
