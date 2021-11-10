@@ -90,7 +90,7 @@ mermaid:
 
 algolia:
   application_id: SL5XJB46I6
-  index_name: prod_site
+  index_name: eyyupalkis
 
 graphviz:
   options: "-Tsvg"
