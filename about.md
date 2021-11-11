@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 
-Hi there, I'm Eyyüp Alkış. An android developer with 3 years experience and Flutter enthusiast.I've decided to write about Love to build interesting things to make life easier for the mobile world. Lifetime learner and curious. Nowadays I am having lovely times with learning Flutter & Dart for cross-platform development and Jetpack Compose for android development. Busy to keep updated myself. Want to work on flutter and interesting android projects. If you want me to work together, don't hesitate to <a href="mailto:contact@eyyupalkis.dev">reach out</a>!.
+Hi there, I'm Eyyüp Alkış. An android developer with 3 years experience and Flutter enthusiast. Love to build interesting things to make life easier for the mobile world. Lifetime learner and curious. Nowadays I am having lovely times with learning Flutter & Dart for cross-platform development and Jetpack Compose for android development. Busy to keep updated myself. Want to work on flutter and interesting android projects. If you want me to work together, don't hesitate to <a href="mailto:contact@eyyupalkis.dev">reach out</a>!.
 
 > Writing keeps me focused and makes permanent what I am trying to learn. So I decided to write blog posts. I hope you enjoy it.
 
