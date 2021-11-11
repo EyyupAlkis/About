@@ -10,6 +10,8 @@ else %} {% capture description %}{{ site.description }}{% endcapture %} {% endif
 %} {% capture canonical %}{{ page.url | replace:'index.html','' | prepend:
 site.url }}{% endcapture %}
 
+{% include analytics.html %}
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
