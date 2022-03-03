@@ -16,6 +16,13 @@ Wanna chat? <a href="https://twitter.com/rathi246">Drop me a DM</a>.
 <section>
 🧑‍💻 Current:
   <ul style="margin-top: 0.2em; list-style-type: circle; padding-inline-start: 26px;">
+    <li>Android Developer <a href="https://www.binance.com/en/earn">Binance</a></li>
+  </ul>
+</section>
+
+<section>
+🏃‍♂️💻 Previous:
+  <ul style="margin-top: 0.2em; list-style-type: circle; padding-inline-start: 26px;">
     <li>Mobile Developer <a href="https://www.huawei.com/tr/">Huawei</a></li>
   </ul>
 </section>
