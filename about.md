@@ -8,7 +8,7 @@ Hi there, I'm Eyyüp Alkış. An android developer over 4 years of experience an
 
 > Writing keeps me focused and makes permanent what I am trying to learn. So I decided to write blog posts. I hope you enjoy it.
 
-Wanna chat? <a href="https://twitter.com/rathi246">Drop me a DM</a>.
+Wanna chat? <a href="https://www.linkedin.com/in/alkiseyyup/">Drop me a message</a>.
 
 📍 Location: Istanbul, Turkey
 
