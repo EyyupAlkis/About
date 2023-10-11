@@ -65,10 +65,7 @@ My full CV can be found on <a href="https://www.linkedin.com/in/alkiseyyup/">Lin
       <a href="https://www.binance.com/en/earn">Main Binance App</a>, spent 1.5 years with Earn Team at Binance. Developed new features and fixed bugs.   
     </li>
     <li> 
-      <a href="https://huaweimobileservices.com/assistant/">Today Assistant</a>, a mobile assistant that works on Huawei devices. Being part of the team developing it. Using java and much more custom views.  
-    </li>
-    <li> 
-      <a href="https://wefocus.app/">WeFocus</a>, survey and employee engagement application. Taking responsibility for planning the app's roadmap, getting warm with Flutter, developing the first pages of the app.  
+      <a href="https://consumer.huawei.com/en/mobileservices/assistant/">Today Assistant</a>, a mobile assistant that works on Huawei devices. Being part of the team developing it. Using java and much more custom views.  
     </li>
     <li> 
       <a href="https://www.fastpay.com.tr/">FastPay</a>, a mobile banking application. Written in kotlin and built on MVVM architecture. Dagger2, RxJava, Coroutines are several technologies that were used in this project. I took responsibility for developing new features and interfaces. 
