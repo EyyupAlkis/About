@@ -10,6 +10,7 @@ lang: en
 ---
 
 This might me an interview question. What are differences between build types, build variants and product flavors?
+<!--more-->
 
 ### Build Type
 
@@ -94,7 +95,7 @@ When you build your app, you can select the product flavor you want to build, an
  
 ### Build Variant
 
-Final math is for build variants is like
+Final math is for build variants is like:
 
 > build type * product flavor = build variants 
 
