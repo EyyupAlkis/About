@@ -62,7 +62,7 @@ My full CV can be found on <a href="https://www.linkedin.com/in/alkiseyyup/">Lin
 
   <ul style="list-style-type: circle;">
     <li> 
-      <a href="https://www.binance.com/en/earn">Main Binance App</a>, spent 1.5 years with Earn Team at Binance. Developed new features and fixed bugs.   
+      <a href="https://www.binance.com/en/earn">Binance</a>, spent 1.5 years with Earn Team at Binance. Developed new features and fixed bugs.   
     </li>
     <li> 
       <a href="https://consumer.huawei.com/en/mobileservices/assistant/">Today Assistant</a>, a mobile assistant that works on Huawei devices. Being part of the team developing it. Using java and much more custom views.  
