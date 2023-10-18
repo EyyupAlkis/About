@@ -5,7 +5,7 @@ posttitle %}{{ page.title }}{% endcapture %} {% else %} {% capture posttitle
 %}{{ site.title }}{% endcapture %} {% endif %} {% if page.lang %} {% capture
 lang %}{{ page.lang }}{% endcapture %} {% else %} {% capture lang %}{{ site.lang
 }}{% endcapture %} {% endif %} {% if page.excerpt %} {% capture description %}{{
-page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% endcapture %} {%
+page.excerpt | strip_html | strip_newlines | truncate: 200 }}{% endcapture %} {%
 else %} {% capture description %}{{ site.description }}{% endcapture %} {% endif
 %} {% capture canonical %}{{ page.url | strip_newlines | replace:'index.html','' | prepend:
 site.url }}{% endcapture %}
