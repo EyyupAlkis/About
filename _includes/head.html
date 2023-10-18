@@ -7,7 +7,7 @@ lang %}{{ page.lang }}{% endcapture %} {% else %} {% capture lang %}{{ site.lang
 }}{% endcapture %} {% endif %} {% if page.excerpt %} {% capture description %}{{
 page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% endcapture %} {%
 else %} {% capture description %}{{ site.description }}{% endcapture %} {% endif
-%} {% capture canonical %}{{ page.url | replace:'index.html','' | prepend:
+%} {% capture canonical %}{{ page.url | strip_newlines | replace:'index.html','' | prepend:
 site.url }}{% endcapture %}
 
 {% include analytics.html %}
