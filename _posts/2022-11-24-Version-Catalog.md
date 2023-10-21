@@ -9,7 +9,7 @@ lang: en
 ---
 
 <p align="center">
-  <img src="/img/version_catalogs.svg" />
+  <img src="/img/version_catalog.png" />
 </p>
 
 ### Version Catalog
