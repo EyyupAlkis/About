@@ -13,9 +13,9 @@ Petroom was a pet hotel booking application. I've developed this application wit
     <td>Main Page</td>
   </tr>
   <tr>
-    <td><img src="/img/p-login.jpg" width=270 height=480></td>
-    <td><img src="/img/p-signup.jpg" width=270 height=480></td>
-    <td><img src="/img/p-mainpage.jpg" width=270 height=480></td>
+    <td><img src="/img/petroom/p-login.jpg" width=270 height=480></td>
+    <td><img src="/img/petroom/p-signup.jpg" width=270 height=480></td>
+    <td><img src="/img/petroom/p-mainpage.jpg" width=270 height=480></td>
   </tr>
   <tr>
     <td>Navigation Menu</td>
@@ -23,9 +23,9 @@ Petroom was a pet hotel booking application. I've developed this application wit
     <td>Contact</td>
   </tr>
   <tr>
-    <td><img src="/img/p-navigation2.jpg" width=270 height=480></td>
-    <td><img src="/img/p-hakkimizda.jpg" width=270 height=480></td>
-    <td><img src="/img/p-iletisim.jpg" width=270 height=480></td>
+    <td><img src="/img/petroom/p-navigation2.jpg" width=270 height=480></td>
+    <td><img src="/img/petroom/p-hakkimizda.jpg" width=270 height=480></td>
+    <td><img src="/img/petroom/p-iletisim.jpg" width=270 height=480></td>
   </tr>
   <tr>
     <td>Rezervation</td>
@@ -33,9 +33,9 @@ Petroom was a pet hotel booking application. I've developed this application wit
     <td>Rezervation</td>
   </tr>
   <tr>
-    <td><img src="/img/p-rez1.png" width=270 height=480></td>
-    <td><img src="/img/p-rez2.png" width=270 height=480></td>
-    <td><img src="/img/p-rez3.png" width=270 height=480></td>
+    <td><img src="/img/petroom/p-rez1.png" width=270 height=480></td>
+    <td><img src="/img/petroom/p-rez2.png" width=270 height=480></td>
+    <td><img src="/img/petroom/p-rez3.png" width=270 height=480></td>
   </tr>
   <tr>
     <td>FAQ</td>
@@ -43,8 +43,8 @@ Petroom was a pet hotel booking application. I've developed this application wit
     <td>Blog Detail</td>
   </tr>
   <tr>
-    <td><img src="/img/p-sss.jpg" width=270 height=480></td>
-    <td><img src="/img/p-blog.jpg" width=270 height=480></td>
-    <td><img src="/img/p-blogDetail.jpg" width=270 height=480></td>
+    <td><img src="/img/petroom/p-sss.jpg" width=270 height=480></td>
+    <td><img src="/img/petroom/p-blog.jpg" width=270 height=480></td>
+    <td><img src="/img/petroom/p-blogDetail.jpg" width=270 height=480></td>
   </tr>
 </table>

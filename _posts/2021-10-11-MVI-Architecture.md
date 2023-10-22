@@ -14,7 +14,7 @@ Architecture patterns stand for creating scalable and maintainable apps. In andr
 
 MVI is including users in the software design steps. '**I**' for MVI stands for intent and it represents the intention of the user. Do not confuse it with intent in android that helps developers create new activities, services, etc.  Every action of the user can be considered as an intent. '**V**' represents the **view** as usual. In the Android world, it can be fragments of activities or custom views. '**M**' stands for the **model**. The model can be described as the state or data of the user interface. MVI provides unidirectional state flow by making this model immutable. By unidirectional flow, every intent matches its result. That provides fewer buggy applications.
 
-![MVI Unidirectional Flow](/img/mvi-unidirection-flow.png)
+![MVI Unidirectional Flow](/img//mvi/mvi-unidirection-flow.png)
 
 ## Dive into the MVI components
 
@@ -41,7 +41,7 @@ interface MviView<I: MviIntent, in S: MviState>{
 }
 ```
 
-<img style="float: left;" src="/img/login-demo.png">
+<img style="float: left;" src="/img/mvi/login-demo.png">
 
 I want to begin the process from start and show details step by step. Assume we have a login screen and we want to build it with MVI architecture. In our login screen, users have to log in with credentials or create an account to proceed.  So basically we expect two things from the user: Login and Signup. For login, the user has to do three things.
 
