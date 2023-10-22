@@ -13,7 +13,7 @@ If you, as an Android developer, want to speed up your builds, you need to consi
 
 <!--more-->
 
-Version catalog is a file to keep and manage your dependencies in same place. Since Gradle 7.0 version, it is possible to use in our projects. A file called ***libs.versions.toml*** that should be located under the **/gradle** folder in a project. 
+Version catalog provides ability to keep and manage your dependencies in same place. Since Gradle 7.0 version, it is possible to use in our projects. A file called ***libs.versions.toml*** that should be located under the **/gradle** folder in a project. With this file we can define our dependencies for the project.
 
 <p align="center">
   <img src="/img/version-catalog/file-location.png" />
@@ -146,7 +146,7 @@ dependencies {
 - You do not need to give much attention and time as `ext` blocks. 
 - Flexible and easy to use. Also you can extend usage of dependencies via bundles.
 - It is easier to maintain than other methods. It gives you hint about version updates of libraries. 
-
+  
 
 
 
