@@ -31,12 +31,12 @@ For now android studio supports only for version catalogs in TOML format. But it
 
 [bundles]
 ```
-1. the `[versions]` section is for declaring versions which can be referenced by dependencies. Also you can define your build constants such as `targetSdk`, `versionCode` etc. Also you can see warnings about available new versions. 
+- the `[versions]` section is for declaring versions which can be referenced by dependencies. Also you can define your build constants such as `targetSdk`, `versionCode` etc. Also you can see warnings about available new versions. 
 <p align="center">
   <img src="/img/version-catalog/toml-1.png" />
 </p>
 
-2. the `[libraries]` part is for declaring the aliases for dependencies. As shown below, `version.ref` is for getting reference of version from `[versions]` part. Also there are 2 different namings for referencing dependencies; `group` and `module`. `module` is full definition of library without seperating two parts. And `group` can be used some libraries that share same root, and `name` part differs them each other. 
+- the `[libraries]` part is for declaring the aliases for dependencies. As shown below, `version.ref` is for getting reference of version from `[versions]` part. Also there are 2 different namings for referencing dependencies; `group` and `module`. `module` is full definition of library without seperating two parts. And `group` can be used some libraries that share same root, and `name` part differs them each other. 
 
 ```toml
 [versions]
@@ -56,6 +56,7 @@ coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version
 ```
 
 Example usage of catalogs;
+
 ```gradle
 dependencies {
     implementation(libs.retrofit.core)
@@ -64,7 +65,7 @@ dependencies {
 }
 ```
 
-3. the `[plugins]` part is for declaring plugins.
+- the `[plugins]` part is for declaring plugins.
 
 ```toml
 [plugins]
@@ -75,6 +76,7 @@ com-android-library = { id = "com.android.library", version.ref = "agp" }
 ```
 
 Plugins can be referred as:
+
 ```gradle
 plugins {
     alias(libs.plugins.com.android.application) apply false
@@ -84,7 +86,8 @@ plugins {
 }
 ```
 
-4. the `[bundles]` part is for grouping dependencies that has similar contexts. The most known example is retrofit library. We need moshi or gson for retrofit for most of times. So we can create bundle for that and we can define once for all places can be used. 
+- the `[bundles]` part is for grouping dependencies that have similar contexts. The most known example is retrofit library. We need moshi or gson for retrofit for most of times. So we can create bundle for that and we can define once for all places can be used. 
+  
 ```toml
 [libraries]
 retrofit-core = { group = "com.squareup.retrofit2", name ="retrofit", version.ref = "retrofit2" }
