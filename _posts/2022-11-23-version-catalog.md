@@ -31,12 +31,12 @@ For now android studio supports only for version catalogs in TOML format. But it
 
 [bundles]
 ```
-- the `[versions]` section is for declaring versions which can be referenced by dependencies. Also you can define your build constants such as `targetSdk`, `versionCode` etc. Also you can see warnings about available new versions. 
+The `[versions]` section is for declaring versions which can be referenced by dependencies. Also you can define your build constants such as `targetSdk`, `versionCode` etc. Also you can see warnings about available new versions. 
 <p align="center">
   <img src="/img/version-catalog/toml-1.png" />
 </p>
 
-- the `[libraries]` part is for declaring the aliases for dependencies. As shown below, `version.ref` is for getting reference of version from `[versions]` part. Also there are 2 different namings for referencing dependencies; `group` and `module`. `module` is full definition of library without seperating two parts. And `group` can be used some libraries that share same root, and `name` part differs them each other. 
+The `[libraries]` part is for declaring the aliases for dependencies. As shown below, `version.ref` is for getting reference of version from `[versions]` part. Also there are 2 different namings for referencing dependencies; `group` and `module`. `module` is full definition of library without seperating two parts. And `group` can be used some libraries that share same root, and `name` part differs them each other. 
 
 ```toml
 [versions]
@@ -65,7 +65,7 @@ dependencies {
 }
 ```
 
-- the `[plugins]` part is for declaring plugins.
+the `[plugins]` part is for declaring plugins.
 
 ```toml
 [plugins]
@@ -86,7 +86,7 @@ plugins {
 }
 ```
 
-- the `[bundles]` part is for grouping dependencies that have similar contexts. The most known example is retrofit library. We need moshi or gson for retrofit for most of times. So we can create bundle for that and we can define once for all places can be used. 
+The `[bundles]` part is for grouping dependencies that have similar contexts. The most known example is retrofit library. We need moshi or gson for retrofit for most of times. So we can create bundle for that and we can define once for all places can be used. 
   
 ```toml
 [libraries]
