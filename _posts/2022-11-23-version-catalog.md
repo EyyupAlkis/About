@@ -9,18 +9,18 @@ lang: en
 ---
 ![](/img/version-catalog/version-catalog.png)
 
-If you, as an Android developer, want to speed up your builds, you need to consider your dependency management approach. Before going through a massive architectural refactor or starting to make your app multi-module, you need to try version catalogs first. You will see certain improvements for the sake of development, and the team will save some time. In the meantime, you are free to make big changes to your project to improve your build times.
+If you are an Android developer looking to speed up your builds, you need to rethink your approach to dependency management. Before you massively redesign your architecture or divide your app into multiple modules, try version catalogs first. You will notice certain improvements in development, and the team will save some time. In the meantime, you can make big changes to your project to improve your build times.
 
 <!--more-->
 
-Version catalog provides ability to keep and manage your dependencies in same place. Since Gradle 7.0 version, it is possible to use in our projects. A file called ***libs.versions.toml***, which should be located in the **/gradle** folder in a project. With this file we can define our dependencies for the project.
+The version catalog provides the ability to keep and manage your dependencies in one place. Since Gradle 7.0 it is possible to use it in our projects. A file called ***libs.versions.toml***, which should be located in the **/gradle** folder in a project. With this file we can define our dependencies for the project.
 
 <p align="center">
   <img src="/img/version-catalog/file-location.png" />
 </p>
 
 
-At the moment now android studio only supports version catalogs in TOML format. But it is easy to catch up. Basically this toml file consists of 4 sections. 
+At the moment android studio only supports version catalogs in TOML format. But it is easy to catch up. Basically this toml file consists of 4 sections. 
 
 ```toml
 [versions]
@@ -32,12 +32,12 @@ At the moment now android studio only supports version catalogs in TOML format. 
 [bundles]
 #libs.versions.toml
 ```
-The `[versions]` section is for declaring versions which can be referenced by dependencies. Also you can define your build constants such as `targetSdk`, `versionCode` etc. Also you can see warnings about available new versions. 
+The `[versions]` section is for specifying versions that can be referenced by dependencies. You can also define your build constants like `targetSdk`, `versionCode` etc. You can also see warnings about available new versions.
 <p align="center">
   <img src="/img/version-catalog/toml-1.png" />
 </p>
 
-The `[libraries]` part is for declaring the aliases for dependencies. As shown below, `version.ref` is for getting reference of version from `[versions]` part. Also there are 2 different namings for referencing dependencies; `group` and `module`. `module` is full definition of library without seperating two parts. And `group` can be used some libraries that share same root, and `name` part differs them each other. 
+The `[libraries]` part is for declaring aliases for dependencies. As shown below, `version.ref` is for getting a reference of the version from the `[versions]` part. Also, there are 2 different names for the reference to dependencies: `group` and `module`. `module` is the complete definition of the library, without separating two parts. And `group` can be used for some libraries which have the same root, and the `name` part distinguishes them from each other. 
 
 ```toml
 [versions]
@@ -110,7 +110,7 @@ dependencies {
 }//build.gradle.kts
 ```
 
->FUN FACT: If your application is multi-module, then you can group each module's dependencies via bundles then you can manage them all in the same line. You can see example usage down below: 
+>FUN FACT: If your application consists of multiple modules, you can use bundles to group the dependencies of each module and then manage them all on the same line. You can see an example of how to use it below:
 
 ```toml
 [libraries]
