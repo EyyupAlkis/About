@@ -13,14 +13,14 @@ If you, as an Android developer, want to speed up your builds, you need to consi
 
 <!--more-->
 
-Version catalog provides ability to keep and manage your dependencies in same place. Since Gradle 7.0 version, it is possible to use in our projects. A file called ***libs.versions.toml*** that should be located in the **/gradle** folder in a project. With this file we can define our dependencies for the project.
+Version catalog provides ability to keep and manage your dependencies in same place. Since Gradle 7.0 version, it is possible to use in our projects. A file called ***libs.versions.toml***, which should be located in the **/gradle** folder in a project. With this file we can define our dependencies for the project.
 
 <p align="center">
   <img src="/img/version-catalog/file-location.png" />
 </p>
 
 
-For now android studio supports only for version catalogs in TOML format. But it is easy to catch up. Basically this toml file consist of 4 sections. 
+At the moment now android studio only supports version catalogs in TOML format. But it is easy to catch up. Basically this toml file consists of 4 sections. 
 
 ```toml
 [versions]
@@ -141,11 +141,11 @@ dependencies {
 
 ### Pros & Cons
 
-- Version Catalog is better than having buildSrc module for our dependencies. Because any change inside buildSrc would invalidate whole cache and require the entire project to be re-compiled. It cause longer build times. But in version catalog, changing a dependency version would impact just parts that using that dependency. This might not be an issue for small projects but its impact would be enourmous when it comes multi-module projects.
-- You do not have to create another module for dependencies like buildSrc. It is convenient to use in multi-module applications. All variables in version catalog will be accesible for any gradle file in the application.
-- You do not need to give much attention and time as `ext` blocks. 
-- Flexible and easy to use. Also you can extend usage of dependencies via bundles.
-- It is easier to maintain than other methods. It gives you hint about version updates of libraries. 
+- Version Catalog is better than a buildSrc module for our dependencies. This is because any change within buildSrc would invalidate the entire cache and require the entire project to be recompiled. This causes longer build times. But in the version catalog, changing a dependency version would only effect the parts that use that dependency. This may not be a problem for small projects but its impact would be huge when dealing with projects with multiple modules
+- You do not need to create another module for dependencies like buildSrc. It is convenient to use in multi-module applications. All variables in version catalog will be accessible for each gradle file in the application.
+- You do not have to give much attention and time as `ext` blocks. 
+- Flexible and easy to use. You can also extend the use of dependencies via bundles.
+- It is easier to maintain than other methods. It gives you hints about version updates of libraries. 
   
 
 
