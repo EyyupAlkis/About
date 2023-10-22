@@ -30,6 +30,7 @@ For now android studio supports only for version catalogs in TOML format. But it
 [plugins]
 
 [bundles]
+#libs.versions.toml
 ```
 The `[versions]` section is for declaring versions which can be referenced by dependencies. Also you can define your build constants such as `targetSdk`, `versionCode` etc. Also you can see warnings about available new versions. 
 <p align="center">
@@ -47,12 +48,14 @@ coroutinesCore = "1.7.3"
 retrofit-core = { group = "com.squareup.retrofit2", name ="retrofit", version.ref = "retrofit2" }
 retrofit-gson = { group = "com.squareup.retrofit2", name="converter-gson", version.ref = "retrofit2" }
 coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutinesCore" }
+#libs.versions.toml
 ```
 
 ```gradle
-    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
-    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
-    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+  implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+  implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+  implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+//build.gradle.kts
 ```
 
 Example usage of catalogs;
@@ -62,7 +65,7 @@ dependencies {
     implementation(libs.retrofit.core)
     implementation(libs.retrofit-gson)
     implementation(libs.coroutines)
-}
+}//build.gradle.kts
 ```
 
 the `[plugins]` part is for declaring plugins.
@@ -73,6 +76,7 @@ com-android-application = { id = "com.android.application", version.ref = "agp" 
 org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "org-jetbrains-kotlin-android" }
 org-jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "org-jetbrains-kotlin-jvm" }
 com-android-library = { id = "com.android.library", version.ref = "agp" }
+#libs.versions.toml
 ```
 
 Plugins can be referred as:
@@ -83,7 +87,7 @@ plugins {
     alias(libs.plugins.org.jetbrains.kotlin.android) apply false
     alias(libs.plugins.org.jetbrains.kotlin.jvm) apply false
     alias(libs.plugins.com.android.library) apply false
-}
+}//build.gradle.kts
 ```
 
 The `[bundles]` part is for grouping dependencies that have similar contexts. The most known example is retrofit library. We need moshi or gson for retrofit for most of times. So we can create bundle for that and we can define once for all places can be used. 
@@ -95,6 +99,7 @@ retrofit-gson = { group = "com.squareup.retrofit2", name="converter-gson", versi
 
 [bundles]
 retrofit = ["retrofit-core", "retrofit-gson"]
+#libs.versions.toml
 ```
 
 usage of bundles;
@@ -102,7 +107,7 @@ usage of bundles;
 ```gradle
 dependencies {
   implementation(libs.bundles.retrofit)
-}
+}//build.gradle.kts
 ```
 
 >FUN FACT: If your application is multi-module, then you can group each module's dependencies via bundles then you can manage them all in the same line. You can see example usage down below: 
@@ -117,11 +122,11 @@ appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "a
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 
-
 [bundles]
 feature-login = ["core-ktx","appcompat","material","constraintlayout"]
 feature-login-test = ["junit"]
 feature-login-android-test = ["androidx-test-ext-junit", "espresso-core"]
+#libs.versions.toml
 ```
 
 these bundles can be referenced from build.gradle file in login module as: 
@@ -131,7 +136,7 @@ dependencies {
     implementation(libs.bundles.feature.login)
     testImplementation(libs.bundles.feature.login.test)
     androidTestImplementation(libs.bundles.feature.login.android.test)
-}
+}//build.gradle.kts
 ```
 
 ### Pros & Cons
