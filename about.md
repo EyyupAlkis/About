@@ -15,7 +15,7 @@ Wanna chat? <a href="https://www.linkedin.com/in/alkiseyyup/">Drop me a message<
 <section>
 🧑‍💻 Current:
   <ul style="margin-top: 0.2em; list-style-type: circle; padding-inline-start: 26px;">
-    <li>Looking for new opportunities</li>
+    <li>Akbank (ForYou Team) via ICTerra</li>
   </ul>
 </section>
 
